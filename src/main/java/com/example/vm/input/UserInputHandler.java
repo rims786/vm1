@@ -23,7 +23,7 @@ public class UserInputHandler {
      */
     public String getProductName() {
         System.out.print("Enter the product name to purchase (or 'exit' to quit): ");
-        return scanner.nextLine();
+        return scanner.nextLine().toLowerCase();
     }
 
     /**

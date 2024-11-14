@@ -31,9 +31,9 @@ public class VendingMachineSimulator {
      * Sets up the vending machine with initial products.
      */
     private void setUpVendingMachine() {
-        vendingMachine.addProduct(new Product("Coke", 1.25, 5));
-        vendingMachine.addProduct(new Product("Pepsi", 1.00, 3));
-        vendingMachine.addProduct(new Product("Water", 0.75, 10));
+        vendingMachine.addProduct(new Product("Coke".toLowerCase(), 1.25, 5));
+        vendingMachine.addProduct(new Product("Pepsi".toLowerCase(), 1.00, 3));
+        vendingMachine.addProduct(new Product("Water".toLowerCase(), 0.75, 10));
         logger.info("Vending machine setup complete with initial products.");
     }
 
